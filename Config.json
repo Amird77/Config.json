@@ -1,6 +1,6 @@
 {
   "inbounds": [{
-    "port": 443,
+    "port": 80,
     "protocol": "vmess",
     "settings": {
       "clients": [{
@@ -10,8 +10,6 @@
     },
     "streamSettings": {
       "network": "ws",
-      "security": "tls",
-      "tlsSettings": {},
       "wsSettings": {
         "path": "/ray"
       }
